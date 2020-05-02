@@ -1,0 +1,62 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/ronhjorth/develop/RestAPI/RestApi/RestApi/RestApi.csproj",
+    "projectName": "RestApi",
+    "projectPath": "/Users/ronhjorth/develop/RestAPI/RestApi/RestApi/RestApi.csproj",
+    "outputPath": "/Users/ronhjorth/develop/RestAPI/RestApi/RestApi/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "sources": {
+      "/Users/ronhjorth/.config/NuGet/“https://freemanco.pkgs.visualstudio.com/_packaging/FreemanEnterprise/nuget/v3/index.json”": {},
+      "/Users/ronhjorth/.config/NuGet/”https://freemanco.pkgs.visualstudio.com/_packaging/Freeman.P2C.Payments/nuget/v3/index.json”": {},
+      "/Users/ronhjorth/.config/NuGet/”https://freemanco.pkgs.visualstudio.com/_packaging/FreemanKafka/nuget/v3/index.json”": {},
+      "https://api.nuget.org/v3/index.json": {},
+      "https://freemanco.pkgs.visualstudio.com/_packaging/Freeman.Sayfir.Packages/nuget/v3/index.json": {},
+      "https://freemanco.pkgs.visualstudio.com/_packaging/FreemanEnterprise/nuget/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.AspNetCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "Microsoft.AspNetCore.Razor.Design": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

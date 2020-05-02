@@ -15,7 +15,7 @@
 </style>
 
 # RestFull API 
-August 2019 (version .01)
+August 2019 (version .0)
 
 Welcome to the August 2019 release of RestFull API. The API will adhear to the REST constaints, the Richardson Maturity Model. 
 
